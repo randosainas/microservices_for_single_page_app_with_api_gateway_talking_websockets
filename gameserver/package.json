@@ -1,0 +1,33 @@
+{
+  "name": "gameServer",
+  "type": "module",
+  "version": "1.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^10.0.0",
+    "@fastify/websocket": "^11.2.0",
+    "fastify": "^5.6.0",
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1",
+    "ws": "^8.18.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/ws": "^8.18.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  },
+  "typedocOptions": {
+    "entryPoints": [
+      "./src/utils/*",
+      "./src/types/*",
+      "./src/schemas/*"
+    ]
+  }
+}

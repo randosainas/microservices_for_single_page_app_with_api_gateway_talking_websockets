@@ -1,0 +1,130 @@
+name: pong-dev
+
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+      target: dev
+      additional_contexts:
+        shared: ./shared
+    container_name: pong-frontend
+    volumes:
+      - ./frontend:/app
+      - frontend_node_modules:/app/node_modules
+      - ./shared:/shared
+    networks:
+      - pong-frontend-network
+
+  nginx:
+    build: ./nginx
+    container_name: pong-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+# so the keys would stay out of the image, mount volume for runtime
+    volumes:
+      - ./nginx/certs/localhost.pem:/etc/nginx/certs/localhost.pem:ro
+      - ./nginx/certs/localhost-key-rsa.pem:/etc/nginx/certs/localhost-key-rsa.pem:ro
+    depends_on:
+      - gameserver
+      - authserver
+    networks:
+      - pong-backend-network
+      - pong-frontend-network
+
+  ping-test:
+    build: ./ping-test
+    container_name: ping-test
+    volumes:
+      - ./ping-test:/app
+      - backend_node_modules:/app/node_modules
+    environment:
+      - NODE_ENV=development
+    networks:
+      - pong-backend-network
+
+  gameserver:
+    container_name: gameserver
+    build:
+      context: ./gameserver
+      target: dev # dev stage, change to production
+    volumes: # production shall not have any volumes
+      - ./gameserver:/app # dev bind mount to use dev script in package.json
+      - game_server_node_modules:/app/node_modules # dev trick to keep container node_modules from being overwritten by .:/app
+    networks:
+      - pong-backend-network
+    expose:
+      - "3001"
+    # ports:
+    #   - "3003:3003"
+
+  api-gateway:
+    build: 
+      context: ./api-gateway
+      target: dev
+    container_name: pong-api-gateway
+    volumes:
+      - ./api-gateway/:/app
+      - api_gateway_node_modules:/app/node_modules
+    networks:
+      - pong-backend-network
+    env_file: ./api-gateway/.env
+
+  user-manager:
+    build:
+      context: ./user-manager
+      target: dev
+    container_name: pong-user-manager
+    volumes:
+      - ./user-manager/src/:/app/src
+      - user-manager-db:/app/db
+    networks:
+      - pong-backend-network
+
+  docs:
+    build:
+      context: .
+      dockerfile: ./docs/Dockerfile
+      target: serve-docs
+      additional_contexts:
+        shared: ./shared
+    container_name: pong-docs
+    ports:
+      - "8081:80"
+    develop:
+      watch:
+        - action: rebuild
+          path: ./frontend
+          target: ./docs/frontend
+          ignore:
+            - node_modules/
+
+  authserver:
+    container_name: authserver
+    build:
+      context: ./authserver
+      target: dev # dev stage, change to production
+    volumes: # production shall not have any volumes
+      - ./authserver:/app # dev bind mount to use dev script in package.json
+      - auth_server_node_modules:/app/node_modules # dev trick to keep container node_modules from being overwritten by .:/app
+    env_file:
+      - .env # load google secrets
+    networks:
+      - pong-backend-network
+
+volumes:
+
+  backend_node_modules:
+  frontend_node_modules:
+  user-manager-db:
+  game_server_node_modules:
+  auth_server_node_modules:
+  api_gateway_node_modules:
+
+networks:
+
+  pong-backend-network:
+    driver: bridge
+  pong-frontend-network:
+    driver: bridge

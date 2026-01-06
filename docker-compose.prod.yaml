@@ -1,0 +1,70 @@
+name: pong-prod
+
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+      target: prod
+    container_name: pong-frontend
+    networks:
+      - pong-frontend-network
+
+  nginx:
+    build: ./nginx
+    container_name: pong-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/certs/localhost.pem:/etc/nginx/localhost.pem:ro
+      - ./nginx/certs/localhost-key-rsa.pem:/etc/nginx/localhost-key-rsa.pem:ro
+    depends_on:
+      - gameserver
+      - authserver
+    networks:
+      - pong-frontend-network
+      - pong-backend-network
+
+  api-gateway:
+    build: 
+      context: ./api-gateway
+      target: prod
+    container_name: pong-api-gateway
+    volumes:
+      - ./api-gateway/src:/app/src/
+    networks:
+      - pong-backend-network
+
+  backend:
+    build: ./backend
+    container_name: pong-backend
+    environment:
+      - NODE_ENV=production
+    networks:
+      - pong-backend-network
+
+  gameserver:
+    container_name: gameserver
+    build:
+      context: ./gameserver
+      target: prod
+    networks:
+      - pong-backend-network
+
+  authserver:
+    container_name: authserver
+    build:
+      context: ./authserver
+      target: prod
+    env_file:
+      - .env
+    networks:
+      - pong-backend-network
+
+networks:
+
+  pong-backend-network:
+    driver: bridge
+  pong-frontend-network:
+    driver: bridge

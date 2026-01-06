@@ -1,0 +1,14 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPointStrategy": "packages",
+  "entryPoints": ["./shared", "./frontend", "./gameserver"],
+  "exclude": ["**/node_modules/**", "**/*.test.ts", "**/vite.config.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true
+  },
+  "out": "out",
+  "theme": "default",
+  "name": "Transcendence API Documentation",
+  "includeVersion": true
+}

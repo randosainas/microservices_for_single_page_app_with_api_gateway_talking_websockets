@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong Game</title>
+  <link href="./style.css" rel="stylesheet">
+  <link href="/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+
+<body class="h-dvh">
+  <div class="flex flex-col h-full">
+    <nav id="navbar"
+      class="navbar bg-neutral text-neutral-content shadow-sm bg-gradient-to-r from-red-300 via-purple-300 to-blue-300">
+      <div class="navbar-start">
+        <a data-link href="/" onClick="this.blur()"
+          class="btn btn-ghost text-lg hover:shadow shadow-accent hover:border-accent outline-accent not-hover:not-focus:text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+            <path fill-rule="evenodd"
+              d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="hidden md:block">
+            Transcendence
+          </span>
+        </a>
+      </div>
+      <div id="titlebar" class="navbar-center text-2xl text-accent bg-base-100 px-5 py-1 rounded-sm"></div>
+      <div class="navbar-end">
+        <language-switcher></language-switcher>
+        <tr-avatar></tr-avatar>
+      </div>
+    </nav>
+    <div id="app" class="flex-1"></div>
+    <div id="footer" class="footer footer-horizontal flex-none my-20">
+      <div class="divider"></div>
+    </div>
+  </div>
+  <script type="module" src="./index.ts"></script>
+</body>
+
+</html>

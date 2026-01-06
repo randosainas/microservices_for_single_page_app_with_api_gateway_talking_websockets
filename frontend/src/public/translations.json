@@ -1,0 +1,538 @@
+{
+  "nav.home": {
+    "en": "Home",
+    "nl": "Home",
+    "fr": "Accueil"
+  },
+  "nav.back": {
+    "en": "Back",
+    "nl": "Terug",
+    "fr": "Retour"
+  },
+  "common.start": {
+    "en": "Start!",
+    "nl": "Start!",
+    "fr": "Démarrer!"
+  },
+  "common.yes": {
+    "en": "Yes",
+    "nl": "Ja",
+    "fr": "Oui"
+  },
+  "common.no": {
+    "en": "No",
+    "nl": "Nee",
+    "fr": "Non"
+  },
+  "common.cancel": {
+    "en": "Cancel",
+    "nl": "Annuleren",
+    "fr": "Annuler"
+  },
+  "common.confirm": {
+    "en": "Confirm",
+    "nl": "Bevestigen",
+    "fr": "Confirmer"
+  },
+  "common.save": {
+    "en": "Save",
+    "nl": "Opslaan",
+    "fr": "Enregistrer"
+  },
+  "common.loading": {
+    "en": "Loading...",
+    "nl": "Laden...",
+    "fr": "Chargement..."
+  },
+  "home.title": {
+    "en": "Pong Transcendence",
+    "nl": "Pong Transcendence",
+    "fr": "Pong Transcendance"
+  },
+  "home.localPlay": {
+    "en": "Local play",
+    "nl": "Lokaal spelen",
+    "fr": "Jeu local"
+  },
+  "home.onlinePlay": {
+    "en": "Online play",
+    "nl": "Online spelen",
+    "fr": "Jeu en ligne"
+  },
+  "home.1v1": {
+    "en": "1v1",
+    "nl": "1v1",
+    "fr": "1v1"
+  },
+  "home.bracket": {
+    "en": "bracket",
+    "nl": "toernooi",
+    "fr": "tournoi"
+  },
+  "home.dev": {
+    "en": "Dev",
+    "nl": "Dev",
+    "fr": "Dév"
+  },
+  "home.devDashboard": {
+    "en": "Dev dashboard",
+    "nl": "Dev dashboard",
+    "fr": "Tableau de bord dev"
+  },
+  "home.devPing": {
+    "en": "Ping Test",
+    "nl": "Ping Test",
+    "fr": "Test de Ping"
+  },
+  "home.devGame": {
+    "en": "Game Test",
+    "nl": "Spel Test",
+    "fr": "Test de Jeu"
+  },
+  "play.title": {
+    "en": "Pong!",
+    "nl": "Pong!",
+    "fr": "Pong!"
+  },
+  "play.gameSettings": {
+    "en": "Game Settings",
+    "nl": "Spel instellingen",
+    "fr": "Paramètres du jeu"
+  },
+  "play.player": {
+    "en": "Player",
+    "nl": "Speler",
+    "fr": "Joueur"
+  },
+  "game.paused": {
+    "en": "Press Space to Unpause",
+    "nl": "Druk op spatie om te hervatten",
+    "fr": "Appuyez sur Espace pour reprendre"
+  },
+  "game.loginRequired": {
+    "en": "Log in!!",
+    "nl": "Inloggen!!",
+    "fr": "Connectez-vous!!"
+  },
+  "game.loginRequiredSub": {
+    "en": "the game can't start without login...",
+    "nl": "het spel kan niet starten zonder in te loggen...",
+    "fr": "le jeu ne peut pas démarrer sans connexion..."
+  },
+  "game.waiting": {
+    "en": "Waiting for opponent...",
+    "nl": "Wachten op tegenstander...",
+    "fr": "En attente de l'adversaire..."
+  },
+  "game.winner": {
+    "en": "Winner!",
+    "nl": "Winnaar!",
+    "fr": "Gagnant!"
+  },
+  "bracket.add8Players": {
+    "en": "Add 8 Players",
+    "nl": "Voeg 8 spelers toe",
+    "fr": "Ajouter 8 joueurs"
+  },
+  "bracket.playerCountAlert": {
+    "en": "Tournaments allow only {min}-{max} players",
+    "nl": "Toernooien staan alleen {min}-{max} spelers toe",
+    "fr": "Les tournois n'autorisent que {min}-{max} joueurs"
+  },
+  "bracket.add1Player": {
+    "en": "Add 1 Player",
+    "nl": "Speler toevoegen",
+    "fr": "Ajouter un joueur"
+  },
+  "bracket.continue": {
+    "en": "Continue to bracket",
+    "nl": "Doorgaan naar toernooi",
+    "fr": "Continuer vers le tournoi"
+  },
+  "play.online.waiting": {
+    "en": "Waiting",
+    "nl": "Wachten",
+    "fr": "En attente"
+  },
+  "play.online.waitingSub": {
+    "en": "the game start if there is a other player...",
+    "nl": "het spel start als er een andere speler is...",
+    "fr": "le jeu commence s'il y a un autre joueur..."
+  },
+  "game.stopped": {
+    "en": "Game stopped",
+    "nl": "Spel gestopt",
+    "fr": "Jeu arrêté"
+  },
+  "game.playerLeft": {
+    "en": "player left the game",
+    "nl": "speler heeft het spel verlaten",
+    "fr": "le joueur a quitté le jeu"
+  },
+  "play.online.ready": {
+    "en": "You are ready",
+    "nl": "Je bent klaar",
+    "fr": "Vous êtes prêt"
+  },
+  "play.online.readySub": {
+    "en": "waiting for the other player...",
+    "nl": "wachten op de andere speler...",
+    "fr": "en attente de l'autre joueur..."
+  },
+  "lang.en": {
+    "en": "English",
+    "nl": "Engels",
+    "fr": "Anglais"
+  },
+  "lang.nl": {
+    "en": "Dutch",
+    "nl": "Nederlands",
+    "fr": "Néerlandais"
+  },
+  "lang.fr": {
+    "en": "French",
+    "nl": "Frans",
+    "fr": "Français"
+  },
+  "title.404": {
+    "en": "404",
+    "nl": "404",
+    "fr": "404"
+  },
+  "title.home": {
+    "en": "Home",
+    "nl": "Home",
+    "fr": "Accueil"
+  },
+  "title.oauthCallback": {
+    "en": "OAuth Login Callback",
+    "nl": "OAuth Inlogcallback",
+    "fr": "Rappel de connexion OAuth"
+  },
+  "title.play": {
+    "en": "Local 1v1",
+    "nl": "Lokaal 1v1",
+    "fr": "1v1 Local"
+  },
+  "title.playOnline": {
+    "en": "Online 1v1",
+    "nl": "Online 1v1",
+    "fr": "1v1 En ligne"
+  },
+  "title.bracket": {
+    "en": "Local Tournament",
+    "nl": "Lokaal Toernooi",
+    "fr": "Tournoi Local"
+  },
+  "title.login": {
+    "en": "Login",
+    "nl": "Inloggen",
+    "fr": "Connexion"
+  },
+  "title.createAccount": {
+    "en": "Create Account",
+    "nl": "Account Aanmaken",
+    "fr": "Créer un compte"
+  },
+  "title.profile": {
+    "en": "Profile",
+    "nl": "Profiel",
+    "fr": "Profil"
+  },
+  "title.settings": {
+    "en": "Settings",
+    "nl": "Instellingen",
+    "fr": "Paramètres"
+  },
+  "title.devDashboard": {
+    "en": "Dev Dashboard",
+    "nl": "Dev Dashboard",
+    "fr": "Tableau de bord Dev"
+  },
+  "title.devPing": {
+    "en": "Dev: Ping",
+    "nl": "Dev: Ping",
+    "fr": "Dev : Ping"
+  },
+  "title.devGame": {
+    "en": "Dev: Game (ws)",
+    "nl": "Dev: Spel (ws)",
+    "fr": "Dev : Jeu (ws)"
+  },
+  "profile.title": {
+    "en": "Profile",
+    "nl": "Profiel",
+    "fr": "Profil"
+  },
+  "profile.name": {
+    "en": "Name",
+    "nl": "Naam",
+    "fr": "Nom"
+  },
+  "profile.id": {
+    "en": "User ID",
+    "nl": "Gebruikers-ID",
+    "fr": "ID utilisateur"
+  },
+  "profile.editProfile": {
+    "en": "Edit Profile",
+    "nl": "Profiel Bewerken",
+    "fr": "Modifier le Profil"
+  },
+  "profile.changeName": {
+    "en": "Change Name",
+    "nl": "Naam Wijzigen",
+    "fr": "Changer le Nom"
+  },
+  "profile.changePhoto": {
+    "en": "Change Photo",
+    "nl": "Foto Wijzigen",
+    "fr": "Changer la Photo"
+  },
+  "profile.removePhoto": {
+    "en": "Remove Photo",
+    "nl": "Foto Verwijderen",
+    "fr": "Supprimer la Photo"
+  },
+  "profile.save": {
+    "en": "Save",
+    "nl": "Opslaan",
+    "fr": "Enregistrer"
+  },
+  "profile.cancel": {
+    "en": "Cancel",
+    "nl": "Annuleren",
+    "fr": "Annuler"
+  },
+  "profile.friends": {
+    "en": "Friends",
+    "nl": "Vrienden",
+    "fr": "Amis"
+  },
+  "profile.searchFriends": {
+    "en": "Search for friends...",
+    "nl": "Zoek naar vrienden...",
+    "fr": "Rechercher des amis..."
+  },
+  "profile.addFriend": {
+    "en": "Add Friend",
+    "nl": "Vriend Toevoegen",
+    "fr": "Ajouter un Ami"
+  },
+  "profile.removeFriend": {
+    "en": "Remove",
+    "nl": "Verwijderen",
+    "fr": "Supprimer"
+  },
+  "profile.noFriends": {
+    "en": "No friends yet",
+    "nl": "Nog geen vrienden",
+    "fr": "Pas encore d'amis"
+  },
+  "profile.searchResults": {
+    "en": "Search Results",
+    "nl": "Zoekresultaten",
+    "fr": "Résultats de Recherche"
+  },
+  "profile.stats": {
+    "en": "Statistics",
+    "nl": "Statistieken",
+    "fr": "Statistiques"
+  },
+  "profile.wins": {
+    "en": "Wins",
+    "nl": "Gewonnen",
+    "fr": "Victoires"
+  },
+  "profile.losses": {
+    "en": "Losses",
+    "nl": "Verloren",
+    "fr": "Défaites"
+  },
+  "profile.winRate": {
+    "en": "Win Rate",
+    "nl": "Winpercentage",
+    "fr": "Taux de Victoire"
+  },
+  "profile.totalGames": {
+    "en": "total games",
+    "nl": "totaal gespeeld",
+    "fr": "parties jouées"
+  },
+  "profile.matchHistory": {
+    "en": "Match History",
+    "nl": "Wedstrijdgeschiedenis",
+    "fr": "Historique des Matchs"
+  },
+  "profile.date": {
+    "en": "Date",
+    "nl": "Datum",
+    "fr": "Date"
+  },
+  "profile.opponent": {
+    "en": "Opponent",
+    "nl": "Tegenstander",
+    "fr": "Adversaire"
+  },
+  "profile.result": {
+    "en": "Result",
+    "nl": "Resultaat",
+    "fr": "Résultat"
+  },
+  "profile.score": {
+    "en": "Score",
+    "nl": "Score",
+    "fr": "Score"
+  },
+  "profile.duration": {
+    "en": "Duration",
+    "nl": "Duur",
+    "fr": "Durée"
+  },
+  "profile.mode": {
+    "en": "Mode",
+    "nl": "Modus",
+    "fr": "Mode"
+  },
+  "profile.win": {
+    "en": "Win",
+    "nl": "Gewonnen",
+    "fr": "Victoire"
+  },
+  "profile.loss": {
+    "en": "Loss",
+    "nl": "Verloren",
+    "fr": "Défaite"
+  },
+  "profile.noMatches": {
+    "en": "No matches played yet",
+    "nl": "Nog geen wedstrijden gespeeld",
+    "fr": "Aucun match joué"
+  },
+  "profile.today": {
+    "en": "Today",
+    "nl": "Vandaag",
+    "fr": "Aujourd'hui"
+  },
+  "profile.yesterday": {
+    "en": "Yesterday",
+    "nl": "Gisteren",
+    "fr": "Hier"
+  },
+  "profile.daysAgo": {
+    "en": "days ago",
+    "nl": "dagen geleden",
+    "fr": "jours"
+  },
+  "profile.userNotFound": {
+    "en": "User not found",
+    "nl": "Gebruiker niet gevonden",
+    "fr": "Utilisateur introuvable"
+  },
+  "profile.backHome": {
+    "en": "Back to Home",
+    "nl": "Terug naar Home",
+    "fr": "Retour à l'Accueil"
+  },
+  "aboutPage.content":{
+    "en": "Welcome to our overengineered pong game! We have everything your heart desires: microservices, all kinds of authentication, a homemade api gateway and a game server complete with double web socket. Crazy! \nIn line with the General Data Protection Regulation of the EU, we aim to provide our users with full transparency regarding their data. \nAll the personal information we are storing in our database can be viewed and edited, and the data can be permanently deleted in the profile page.",
+    "nl": "Welkom bij ons overdreven goed ontworen pongspel! We hebben alles wat je hartje begeert: microservices, allerlei soorten authenticatie, een zelfgemaakte api-gateway en een gameserver compleet met dubbele websocket. Waanzin!In overeenstemming met de Algemene Verordening Gegevensbescherming van de EU streven we ernaar onze gebruikers volledige transparantie te bieden met betrekking tot hun gegevens. Alle persoonlijke informatie die we in onze database opslaan, kan worden bekeken en bewerkt, en de gegevens kunnen permanent worden verwijderd op de profielpagina. ",
+    "fr": "Bienvenue dans notre jeu de pong ultra sophistiqué ! Nous avons tout ce que vous pouvez désirer : des microservices, toutes sortes d'authentification, une passerelle API maison et un serveur de jeu complet avec double socket web. C'est fou !Conformément au règlement général sur la protection des données de l'UE, nous souhaitons offrir à nos utilisateurs une transparence totale concernant leurs données. Toutes les informations personnelles que nous stockons dans notre base de données peuvent être consultées et modifiées, et les données peuvent être supprimées définitivement dans la page de profil. "
+  },
+  "title.about": {
+    "en": "About",
+    "nl": "Over",
+    "fr": "À propos"
+  },
+  "profile.deleteFailed": {
+    "en": "Failed to delete account.",
+    "nl": "Account verwijderen mislukt.",
+    "fr": "Échec de la suppression du compte."
+  },
+  "profile.accountDeleted": {
+    "en": "Account deleted successfully.",
+    "nl": "Account succesvol verwijderd.",
+    "fr": "Compte supprimé avec succès."
+  },
+  "profile.confirmDelete": {
+    "en": "Are you sure you want to delete your account?",
+    "nl": "Weet je zeker dat je je account wilt verwijderen?",
+    "fr": "Êtes-vous sûr de vouloir supprimer votre compte ?"
+  },
+  "profile": {
+    "en": "Profile",
+    "nl": "Profiel",
+    "fr": "Profil"
+  },
+  "login": {
+    "en": "Login",
+    "nl": "Inloggen",
+    "fr": "Connexion"
+  },
+  "logout": {
+    "en": "Logout",
+    "nl": "Uitloggen",
+    "fr": "Déconnexion"
+  },
+  "about": {
+    "en": "About",
+    "nl": "Over",
+    "fr": "À propos"
+  },
+  "queueMessage": {
+    "en": " You are queued for a match. Searching for player: ",
+    "nl": "Je zit in de wachtrij. We zoeken naar een lotgenoot: ",
+    "fr": "Tu es dans la file d'attente. On cherche pour un autre joueur: "
+  },
+  "login.welcome": {
+    "en": "Welcome to the Transcendence project! Log in to access the games and features.",
+    "nl": "Welkom bij onze Transcendence! Log in om toegang te krijgen to game en ontdek alle snufjes.",
+    "fr": "Bienvenue dans le projet Transcendence ! Connectez-vous pour accéder aux jeux et aux fonctionnalités."
+  },
+  "login.google": {
+    "en": "log in with Google",
+    "nl": "log in met Google",
+    "fr": "se connecter avec Google"
+  },
+  "login.readthe": {
+    "en": "By logging in, you agree to our",
+    "nl": "Door in te loggen, gaat u akkoord met onze",
+    "fr": "En vous connectant, vous acceptez nos"
+  } ,
+  "login.terms": {
+    "en": "terms of service",
+    "nl": "algemene voorwaarden",
+    "fr": "conditions d'utilisation"
+  },
+  "login.terms.text": {
+    "en": "In accordance with the General Data Protection Regulation of the European Union, we strive for full transparency when it  comes to user data. We only permanently store the Google ID of the user, in order to link the Google account to the user profile, and the username and profile picture. In order to fully guarantee anonymization and give the user all the agency to handle their own data, we allow for users to delete their profile, as well as changing the username and removing the profile picture received from Google. Deleting the user will remove the data fully from our servers. We deliberately go for a minimal approach when it comes to storing information of our users. We do not share user data with third parties.",
+    "nl": "In overeenstemming met de Algemene Verordening Gegevensbescherming van de Europese Unie streven wij naar volledige transparantie inzake gebruikersgegevens. Wij slaan enkel de Google-ID van de gebruiker permanent op, om het Google-account aan het gebruikersprofiel op onze website te koppelen, evenals de gebruikersnaam en profielfoto, die ten allen tijde kunnen worden aangepast. Om volledige anonimiteit te garanderen en de gebruiker alle zeggenschap te geven over zijn/haar gegevens, bieden we gebruikers ook de mogelijkheid om hun profiel te verwijderen, alsook de username en de profielfoto van Google te wijzigen. Bij het verwijderen van een profiel verdwijnen alle gegevens van onze servers. Wij kiezen bewust voor een minimale aanpak als het gaat om het opslaan van informatie van onze gebruikers. Wij delen geen gebruikersgegevens met derden",
+    "fr": "Conformément au Règlement général sur la protection des données de l'Union européenne, nous visons une transparence totale en matière de données utilisateur. Nous enregistrons uniquement l'identifiant Google de l'utilisateur de manière permanente, afin de relier le compte Google au profil utilisateur sur notre site web, ainsi que le nom d'utilisateur et la photo de profil, qui peuvent être modifiés à tout moment. Afin de garantir un anonymat total et de donner à l'utilisateur le contrôle total de ses données, nous offrons également aux utilisateurs la possibilité de supprimer leur profil, ainsi que de modifier leur nom d'utilisateur et leur photo de profil Google. Lorsque vous supprimez un profil, toutes les données disparaissent de nos serveurs. Nous avons délibérément choisi une approche minimale en matière de stockage des informations de nos utilisateurs. Nous ne partageons aucune donnée utilisateur avec des tiers."
+  },
+  "login.accepttermswarning": {
+    "en": "Please accept the terms of service before logging in",
+    "nl": "Accepteer de algemene voorwaarden voordat u inlogt",
+    "fr": "Veuillez accepter les conditions d'utilisation avant de vous connecter"
+  },
+  "profile.deleteAccount":
+  {
+    "en": "Delete Account",
+    "nl": "Account verwijderen",
+    "fr": "Supprimer le compte"
+  },
+  "game.authFailed": {
+    "en": "Your session has expired or is invalid. Please log in again.",
+    "nl": "Uw sessie is verlopen of is ongeldig. Log in opnieuw.",
+    "fr": "Votre session a expiré ou est invalide. Veuillez vous reconnecter."
+  },
+  "game.connect-error": {
+    "en": "Connection to game service failed. The servers might be down, try again later. We apologize for the Inconvenience.",
+    "nl": "Verbinding met gameservice is mislukt. De servers zijn mogelijk niet beschikbaar, probeer het later opnieuw. Onze excuses voor het ongemak.",
+    "fr": "La connexion au service de jeu a échoué. Les serveurs sont peut-être en panne, réessayez plus tard. Nous nous excusons pour la gêne occasionnée."
+  },
+  "404.text": {
+    "en": "Oops! The page you’re looking for doesn’t exist or has been moved.",
+    "nl": "Oeps! De pagina die je zoekt bestaat niet of is verplaatst.",
+    "fr": "Oups! La page que vous cherchez n’existe pas ou a été déplacée."
+  }
+}

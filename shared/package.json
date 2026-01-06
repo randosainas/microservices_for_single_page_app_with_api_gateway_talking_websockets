@@ -1,0 +1,7 @@
+{
+  "name": "@pong/shared",
+  "version": "1.0.0",
+  "typedocOptions": {
+    "entryPoints": ["./src/**/*"]
+  }
+}

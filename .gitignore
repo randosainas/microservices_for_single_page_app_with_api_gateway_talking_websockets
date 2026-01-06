@@ -1,0 +1,5 @@
+Session.vim
+node_modules/
+.env
+certs/
+.npm/

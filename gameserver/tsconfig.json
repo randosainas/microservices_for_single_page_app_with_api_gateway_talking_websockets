@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Output JS for modern environments
+    "module": "NodeNext", // Use ES module system (import/export)
+    "moduleResolution": "NodeNext", // just tsc/tsx
+    "outDir": "dist", // Put compiled JS into the dist/ folder
+    "rootDir": "src", // Look for TS source files in src/
+    "strict": true, // Enable strict type checking
+    "skipLibCheck": true, // Don’t check type errors in node_modules
+    "allowImportingTsExtensions": true
+  },
+  "include": [ // Only compile files in the src/ folder
+    "src",
+  ]
+}
